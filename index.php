@@ -15,10 +15,10 @@ and open the template in the editor.
         <title>Formulario de ruta</title>
     </head>
     <body>
-        <form action="/MapsRequest.php">
+        <form action="MapsRequest.php" method="post">
             
             Seleccionar dispositivo:<br>
-            <select>
+            <select name="Dispositivo">
                 <option value="Dispositivo1">Dispositivo Beta</option>
             </select>
             <br><br>
